@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Section 1 */
+  .sec1 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(orange, black);
+  }
+  
+  .left1, .right1 {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .sinchu {
+    height: 460px;
+    width: 450px;
+    margin: 15%;
+    max-width: 90%;
+  }
+  
+  .fanta {
+    font-size: 50px;
+    color: white;
+  }
+  
+  p {
+    font-size: 25px;
+    color: white;
+    text-align: justify;
+    padding: 1em;
+  }
+  
+  /* Section 2 */
+  .sec2 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(black, blue);
+  }
+  
+  .left2, .right2 {
+    align-items: center;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .sinchu1 {
+    height: 400px;
+    width: 300px;
+    max-width: 90%;
+  }
+  
+  .title {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  /* 📱 Responsive ONLY for Mobile/Tablet */
+  @media (max-width: 768px) {
+    .sec1,
+    .sec2 {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      height: auto;
+      padding: 40px 20px;
+    }
+  
+    .left1, .right1,
+    .left2, .right2 {
+      width: 100%;
+      max-width: 100%;
+      padding: 10px 0;
+    }
+  
+    .sinchu {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      margin: 20px auto;
+    }
+  
+    .sinchu1 {
+      width: 100%;
+      max-width: 250px;
+      height: auto;
+      margin: 20px auto;
+    }
+  
+    .fanta,
+    .title {
+      font-size: 2rem;
+    }
+  
+    p {
+      font-size: 1.1rem;
+    }
+  }
+  
+  /* 🧠 Ultra small screens (flagship + compact phones) */
+  @media (max-width: 480px) {
+    .fanta,
+    .title {
+      font-size: 1.6rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  
+    .sinchu {
+      max-width: 90%;
+    }
+  
+    .sinchu1 {
+      max-width: auto;
+    }
+  }
+  

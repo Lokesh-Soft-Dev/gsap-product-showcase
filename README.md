@@ -14,7 +14,9 @@ A simple and interactive product showcase using HTML, CSS, and GSAP animations t
 - Interactive product showcase with dynamic visuals
 - Responsive design for mobile and desktop
 ---
+
 ## 🧑‍💻 Author
 
 **LOKESH K**
+
 ---

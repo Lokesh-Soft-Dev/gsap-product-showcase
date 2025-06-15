@@ -2,6 +2,7 @@
 
 A simple and interactive product showcase using HTML, CSS, and GSAP animations to create smooth scroll-triggered visual effects.
 
+---
 ## Live Demo: https://lokesh-soft-dev.github.io/gsap-product-showcase/
 ---
 ## Technologies Used

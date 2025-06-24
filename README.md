@@ -14,7 +14,6 @@ A simple and interactive product showcase using HTML, CSS, and GSAP animations t
 - Smooth scroll-triggered animations powered by GSAP
 - Interactive product showcase with dynamic visuals
 - Responsive design for mobile and desktop
-  
 ---
 
 ## 🧑‍💻 Author
